@@ -16,7 +16,7 @@ _carch="arm64"
 # Source
 _commit="9537839cf55b2a269081428fe9a7a7e25b325d18"
 source="
-	$pkgname-$_commit.tar.gz::https://github.com/troplo/linux/archive/$_commit.tar.gz
+	$pkgname-$_commit.tar.gz::https://github.com/Troplo/msm8953-linux/archive/$_commit.tar.gz
 	config-$_flavor.$arch
 "
 builddir="$srcdir/linux-$_commit"
